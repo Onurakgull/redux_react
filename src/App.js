@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import Index from "./component";
+import DahaFazlaOku from "./component/DahaFazlaOku";
 import Data from "./component/Data";
 import HookSayac from "./component/HookSayac";
 
@@ -39,6 +40,9 @@ function App() {
             <Index/>
             <HookSayac/>
             <Data/>
+            <DahaFazlaOku 
+            text={"Merhaba bugün yapacakların hakkında bana bahsetmeni istiyorum."}
+            max={15}/>
      
     </>
   );
